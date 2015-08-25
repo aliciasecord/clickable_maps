@@ -1,19 +1,59 @@
-.menu ul {
+body {
+  font-family: 'Poiret One', cursive;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+div.menu ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
  }
 
-.menu ul li {
+div.menu ul li {
   display: inline;
   border-right: 1px, gray;
   padding-right: 1px;
   padding-left: 1px;
 }
 
-.county_names li {
+div.menu a {
+  display: block;
+}
+
+ul.county_names li {
   display: inline;
   border-right: 1px, gray;
   padding-right: 1px;
   padding-left: 1px;
+}
+
+map {
+
+}
+
+div.map {
+
+}
+
+div.info_container {
+  
+}
+
+div.county_info {
+  
 }
